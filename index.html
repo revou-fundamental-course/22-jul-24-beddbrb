@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alvarhino</title>
+    <title>Revou</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Package</a></li>
+                <li><a href="#">Call Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="slider">
+                <div class="slides">
+                    <img src="image1.png" alt="Travel Image 1">
+                    <img src="image2.png" alt="Travel Image 2">
+                    <img src="image3.jpg" alt="Travel Image 3">
+                </div>
+                <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="next" onclick="plusSlides(1)">&#10095;</button>
+            </div>
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <input type="tel" name="phone" placeholder="Your Phone">
+                    <select name="destination">
+                        <option value="bali">Bali</option>
+                        <option value="japan">Japan</option>
+                        <option value="singapore">Singapore</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section class="packages">
+            <h2>Our Package</h2>
+            <div class="package-list">
+                <div class="package">Bali<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellat corrupti perferendis, placeat ad veritatis voluptas expedita, iste earum ipsum sit eveniet autem aliquam excepturi nobis. Temporibus laudantium nobis fugit.</p></div>
+                <div class="package">Japan<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellat corrupti perferendis, placeat ad veritatis voluptas expedita, iste earum ipsum sit eveniet autem aliquam excepturi nobis. Temporibus laudantium nobis fugit.</p></div>
+                <div class="package">Singapore<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellat corrupti perferendis, placeat ad veritatis voluptas expedita, iste earum ipsum sit eveniet autem aliquam excepturi nobis. Temporibus laudantium nobis fugit.</p></div>
+                <div class="package">Bandung<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellat corrupti perferendis, placeat ad veritatis voluptas expedita, iste earum ipsum sit eveniet autem aliquam excepturi nobis. Temporibus laudantium nobis fugit.</p></div>
+                <div class="package">Surabaya<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellat corrupti perferendis, placeat ad veritatis voluptas expedita, iste earum ipsum sit eveniet autem aliquam excepturi nobis. Temporibus laudantium nobis fugit.</p></div>
+            </div>
+        </section>
+        <section class="closing-argument">
+            <h2>Footer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, totam cum adipisci dolores blanditiis amet consectetur voluptate! Maxime, vel quisquam facilis laudantium unde reiciendis temporibus, at cumque blanditiis neque deleniti?</p>
+            <button class="cta-button">Tombol</button>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
